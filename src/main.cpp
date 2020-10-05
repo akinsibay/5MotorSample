@@ -78,6 +78,7 @@ void loop()
     }
     if (newData == true)
     {
+      //test
       stepperA.setMaxSpeed(aHiz);
       stepperA.move(aStepSayisi);
 
